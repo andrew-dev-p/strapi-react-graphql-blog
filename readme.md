@@ -6,11 +6,11 @@ A **modern portfolio/blog platform** built with **Strapi**, **React**, and **Gra
 
 ### Strapi Admin Panel
 
-![Strapi Admin Panel](./screenshots/admin.png)
+![Strapi Admin Panel](/admin.png)
 
 ### Single Portfolio Page
 
-![Single Portfolio Page](./screenshots/single.png)
+![Single Portfolio Page](/single.png)
 
 ## 🔍 Description
 
