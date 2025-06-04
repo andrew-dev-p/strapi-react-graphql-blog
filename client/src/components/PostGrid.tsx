@@ -11,7 +11,7 @@ const PostGrid = ({ item }: { item: Portfolio }) => {
       <Card className="shadow bg-tertiary-color card-img h-100">
         {item.gallery.length === 0 && (
           <Link to={`/portfolio/${item.slug}`}>
-            <Card.Img src={`${item.gallery[0].url}`} />
+            <Card.Img src={`http://localhost:1337${item.gallery[0].url}`} />
           </Link>
         )}
         <Card.Body>

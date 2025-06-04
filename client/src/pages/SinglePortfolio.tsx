@@ -57,7 +57,7 @@ const SinglePortflio = () => {
               <Link to={`${portfolios?.data[0].gallery[0].url}`}>
                 <Card.Img
                   id="featued-img"
-                  src={`${portfolios?.data[0].gallery[0].url}`}
+                  src={`http://localhost:1337${portfolios?.data[0].gallery[0].url}`}
                 />
               </Link>
             )}
@@ -68,13 +68,16 @@ const SinglePortflio = () => {
                   <Link to={`/portfolio/${portfolios?.data[0].slug}`}>
                     <Card.Img
                       id="featued-img"
-                      src={`${portfolios?.data[0].gallery[0].url}`}
+                      src={`http://localhost:1337${portfolios?.data[0].gallery[0].url}`}
                     />
                   </Link>
                 </Carousel.Item>
                 {portfolios?.data[0].gallery.map((gallery) => (
                   <Carousel.Item key={gallery.id} className="rounded">
-                    <Card.Img id="featued-img" src={`${gallery.url}`} />
+                    <Card.Img
+                      id="featued-img"
+                      src={`http://localhost:1337${gallery.url}`}
+                    />
                   </Carousel.Item>
                 ))}
               </Carousel>
