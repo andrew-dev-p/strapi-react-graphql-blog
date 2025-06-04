@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 
-const StatCard = ({ projects }: { projects: number }) => {
+const StatCard = () => {
   return (
     <Row className="text-center d-flex bg-tertiary-color text-primary-color rounded shadow p-4 mb-5">
       <Col lg={4} md={3} sm={4}>
@@ -9,7 +9,7 @@ const StatCard = ({ projects }: { projects: number }) => {
             <i className="fas fa-code"></i>
           </div>
           <div className="align-middle stat-card-content">
-            <h3 className="display-5">{projects}+</h3>
+            <h3 className="display-5">10+</h3>
             <span>Projects Completed</span>
           </div>
         </div>
