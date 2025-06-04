@@ -198,7 +198,7 @@ const HomePage = () => {
               alt="Developer Profile"
             />
             <DeveloperDetails>
-              <DeveloperName>John Doe</DeveloperName>
+              <DeveloperName>Andrii</DeveloperName>
               <DeveloperTitle>Full Stack Developer</DeveloperTitle>
               <DeveloperBio>
                 Passionate full-stack developer with expertise in modern web

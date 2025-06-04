@@ -5,7 +5,7 @@ const HeroSection = () => {
     <Row className="align-items-center g-lg-5 pt-5 pb-5">
       <Col lg={8}>
         <h1 className="display-4 fw-bold lh-1 mb-3 text-tertiary-color">
-          Hi, I'm <span className="text-quaternary-color">John Doe</span>
+          Hi, I'm <span className="text-quaternary-color">Andrii</span>
         </h1>
         <h3 className="mb-3 text-tertiary-color text-primary-font">
           Full-stack Web Developer

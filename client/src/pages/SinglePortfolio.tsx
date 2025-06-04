@@ -77,7 +77,7 @@ const PortfolioMeta = styled.div`
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 `;
 
 const MetaDivider = styled.span`
@@ -201,9 +201,9 @@ const MarkdownContent = styled.div`
 `;
 
 const SinglePortfolio = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const { data, loading, error } = useQuery(GET_PORTFOLIO, {
-    variables: { slug: id },
+    variables: { slug },
   });
 
   if (loading) return <div>Loading...</div>;
@@ -219,7 +219,7 @@ const SinglePortfolio = () => {
           <PortfolioMeta>
             <span>{portfolio.date}</span>
             <MetaDivider>|</MetaDivider>
-            <span>John Doe</span>
+            <span>Andrii</span>
           </PortfolioMeta>
           <TagsContainer>
             {portfolio.tags.map((tag: Portfolio["tags"][0]) => (
